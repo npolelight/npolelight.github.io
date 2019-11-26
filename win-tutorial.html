@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>客户端配置教程</title>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="static/css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="static/js/page.js"></script>
+</head>
+
+<body>
+
+    <div class="container col-lg-11 col-md-11 col-sm-12 col-xs-12 p-2">
+        <h3 class="mx-auto text-center">Windows V2rayN-core 客户端配置3步教程</h3>
+        <ul class="mx-auto">
+            <li class="bg-secondary text-white text-center rounded pb-2">
+                    <h4 class="p-5">Windows下的客户端也很多，这里选择V2rayN-core，记住是下载这个带Core后缀的文件才能正常使用。目前国内使用Windows的用户群体最大，而V2rayN-core也确实提供了简单直观的配置方式，即使是小白用户也能快速配置完成。</h4>
+            </li>  
+            <li class="bg-secondary text-white text-center rounded pb-2 mt-3">
+                <h4 class="p-5">第一步：添加服务器参数。如果有二维码，直接右键然后选择扫描二维码即可。没有二维码时，点击软件右上角的服务器，选择添加vmess服务器就会出现下图界面。然后按图填写即可。</h4>
+                <div><img src="static/imgs/win-01.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第二步：检查服务器参数。如果时二维码扫描的，这里会自动加载服务器的参数；如果时手动填写的，关键参数也会显示在这里。</h4>
+                <div><img src="static/imgs/win-02.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第三步：填写本地参数。点击主界面上的“参数设置”，然后出现下图界面。按照图示填写相关参数。其中socks的端口需要记住。在chrome浏览器中设置需要用到。</h4>
+                <div><img src="static/imgs/win-03.png" alt=""></div>
+            </li>
+        </ul>
+       
+    </div>
+
+</body>
+<script>
+$('body').prepend(navbar)
+$('body').append(footbar)
+</script>
+</html>

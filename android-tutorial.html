@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>客户端配置教程</title>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="static/css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="static/js/page.js"></script>
+</head>
+
+<body>
+
+    <div class="container col-lg-11 col-md-11 col-sm-12 col-xs-12 p-2">
+        <h3 class="mx-auto text-center">安卓 V2rayNG 客户端配置3步教程</h3>
+        <ul class="mx-auto">
+            <li class="bg-secondary text-white text-center rounded pb-2">
+                    <h4 class="p-5">安卓系统下推荐使用V2rayNG这款客户端，配置简单功能齐全。默认直接开启全局模式，所有流量都走代理。需要在设置中修改。</h4>
+            </li> 
+            <li class="bg-secondary text-white text-center rounded pb-2 mt-3">
+                <h4 class="p-5">第一步：如果有二维码可以直接扫描二维码加载服务器参数。如果有json格式的配置文件可以通过“导入自定义配置”加载。如果有vmess链接，则使用“从URL导入”。如果都没有，则手动输入vmess</h4>
+                <div><img src="static/imgs/an-01.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第二步：没有二维码、json格式的配置以及vmess链接，则按照下图手动输入。</h4>
+                <div><img src="static/imgs/an-03.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第三步：服务器参数设置完成之后，就可以按照下图设置本地的参数。其中最重要的是“路由”，需按照途中说明设置。如果发现国内应用卡顿，就打开“分应用代理”。</h4>
+                <div><img src="static/imgs/an-02.png" alt=""></div>
+            </li>
+        </ul>
+       
+    </div>
+
+</body>
+<script>
+$('body').prepend(navbar)
+$('body').append(footbar)
+</script>
+</html>

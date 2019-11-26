@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>客户端配置教程</title>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="static/css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="static/js/page.js"></script>
+</head>
+
+<body>
+
+    <div class="container col-lg-11 col-md-11 col-sm-12 col-xs-12 p-2">
+        <h3 class="mx-auto text-center">MacOS V2rayU 客户端配置3步教程</h3>
+        <ul class="mx-auto">
+            <li class="bg-secondary text-white text-center rounded pb-2">
+                <h4 class="p-5">这里推荐Mac用户使用V2rayU这款客户端。有些其他的客户端没有二维码扫描的功能，这款V2rayU的客户端相对而言功能比较完善。</h4>
+            </li> 
+            <li class="bg-secondary text-white text-center rounded pb-2 mt-3">
+                <h4 class="p-5">第一步：如果有配置的二维码，可以直接扫描二维码加载服务器设置。如果没有二维码，就点击“服务器设置”进入手动设置的界面。</h4>
+                <div><img src="static/imgs/mac-01.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第二步：没有二维码，则按照图示的步骤手动填写服务器的参数。最重要的几个参数：服务器IP，服务器端口，ID，alterId以及网络协议。默认网络协议为TCP，如果确认服务器端使用KCP则保持一致。</h4>
+                <div><img src="static/imgs/mac-02.png" alt=""></div>
+            </li>
+            <li class="bg-secondary text-white text-center mt-3 rounded pb-2">
+                <h4 class="p-5">第三步：按照图示步骤设置本地使用的参数。其中最重要的是sock端口。</h4>
+                <div><img src="static/imgs/mac-03.png" alt=""></div>
+            </li>
+        </ul>
+       
+    </div>
+
+</body>
+<script>
+$('body').prepend(navbar)
+$('body').append(footbar)
+</script>
+</html>
